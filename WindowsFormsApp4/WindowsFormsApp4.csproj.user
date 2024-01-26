@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Hp\OneDrive\Desktop\Enough of this shit\|C:\Users\Hp\OneDrive\Desktop\Send\|C:\Users\Hp\OneDrive\Desktop\Project\|C:\Users\Hp\OneDrive\Desktop\Final\|C:\Users\Hp\OneDrive\Desktop\A&amp;H\New folder\</PublishUrlHistory>
+    <InstallUrlHistory>\\DESKTOP-5F9L48H\Users\Hp\OneDrive\Desktop\A&amp;H\New folder %282%29\|\\DESKTOP-5F9L48H\Users\Hp\OneDrive\Desktop\New folder %282%29\|\\DESKTOP-5F9L48H\Users\Hp\OneDrive\Desktop\A&amp;H\|\\server\\myapplication\DESKTOP-5F9L48H\HAMZA\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory>http://localhost/WindowsFormsApp4/</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

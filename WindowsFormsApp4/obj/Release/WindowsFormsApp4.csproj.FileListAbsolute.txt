@@ -1,0 +1,108 @@
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Release\WindowsFormsApp4.exe.config
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Release\WindowsFormsApp4.exe
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Release\WindowsFormsApp4.pdb
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Company.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form1.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form2.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form3.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form4.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form5.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.DC_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form6.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form7.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.IC.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Size.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.UserControl1.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.exe
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.pdb
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.invoice_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Discounts.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Release\WindowsFormsApp4.exe.manifest
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\bin\Release\WindowsFormsApp4.application
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.exe.manifest
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.application
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Quotation.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.ledgers_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Category.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form9.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4\WindowsFormsApp4\obj\Release\WindowsFormsApp4.M_Invoice.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\ClosedXML.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\DocumentFormat.OpenXml.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\ExcelNumberFormat.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\ClosedXML.pdb
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\ClosedXML.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\DocumentFormat.OpenXml.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\ExcelNumberFormat.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.AssemblyReference.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.ResolveComReference.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Category.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Company.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Discounts.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form1.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.PrintForm.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form2.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form3.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form4.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form5.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.DC_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form6.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form7.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form9.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.IC.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.invoice_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.ledgers_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.M_Invoice.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Properties.Resources.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Quotation.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Size.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.csproj.CopyComplete
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Q_form.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Smart Stock.exe.config
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Smart Stock.exe.manifest
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Smart Stock.application
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Smart Stock.exe
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Smart Stock.pdb
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\Smart Stock.exe.config
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\Smart Stock.TrustInfo.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\Smart Stock.exe.manifest
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\Smart Stock.application
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\Smart Stock.exe
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\Smart Stock.pdb
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\obj\Release\WindowsFormsApp4.Form8.resources
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.Modules.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.SQLite.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.Wpf.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Dynamic.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Scripting.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Scripting.Metadata.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Buffers.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Memory.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Numerics.Vectors.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.Modules.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.SQLite.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\IronPython.Wpf.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Dynamic.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Scripting.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\Microsoft.Scripting.Metadata.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Buffers.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Memory.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Numerics.Vectors.xml
+C:\Users\Hp\source\repos\WindowsFormsApp4 - Copy\WindowsFormsApp4\bin\System.Runtime.CompilerServices.Unsafe.xml

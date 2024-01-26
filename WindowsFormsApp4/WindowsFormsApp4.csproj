@@ -1,0 +1,1199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SSDTUnitTestPath Condition="'$(SSDTUnitTestPath)' == ''">$(VsInstallRoot)\Common7\IDE\Extensions\Microsoft\SQLDB</SSDTUnitTestPath>
+    <PublishUrl>C:\Users\Hp\OneDrive\Desktop\Smart Sort\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/WindowsFormsApp4/</UpdateUrl>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>42</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SSDTPath Condition="'$(SSDTPath)' == ''">$(VsInstallRoot)\Common7\IDE\Extensions\Microsoft\SQLDB\DAC</SSDTPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B6814E0-9E84-4BD5-B8AF-D2CBE98FFA94}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp4</RootNamespace>
+    <AssemblyName>Smart Stock</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>SecurityRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4101359CD43F245D3AE1E2DAE6FD6B5AF1FD78F3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsApp4_1_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Final.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.96.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.96.0\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.16.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.16.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython, Version=3.4.0.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronPython.3.4.0\lib\net462\IronPython.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Modules, Version=3.4.0.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronPython.3.4.0\lib\net462\IronPython.Modules.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.SQLite, Version=3.4.0.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronPython.3.4.0\lib\net462\IronPython.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="IronPython.Wpf, Version=3.4.0.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\IronPython.3.4.0\lib\net462\IronPython.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Dynamic, Version=1.3.3.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicLanguageRuntime.1.3.3\lib\net452\Microsoft.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting, Version=1.3.3.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicLanguageRuntime.1.3.3\lib\net452\Microsoft.Scripting.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Scripting.Metadata, Version=1.3.3.0, Culture=neutral, PublicKeyToken=7f709c5b713576e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamicLanguageRuntime.1.3.3\lib\net452\Microsoft.Scripting.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category.Designer.cs">
+      <DependentUpon>Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company.Designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Discounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discounts.Designer.cs">
+      <DependentUpon>Discounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DC_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DC_form.Designer.cs">
+      <DependentUpon>DC_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet151.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet151.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet28.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet28.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet29.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet29.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Q_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Q_form.Designer.cs">
+      <DependentUpon>Q_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IC.Designer.cs">
+      <DependentUpon>IC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="invoice_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="invoice_form.Designer.cs">
+      <DependentUpon>invoice_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ledgers_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ledgers_form.Designer.cs">
+      <DependentUpon>ledgers_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="M_Invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="M_Invoice.Designer.cs">
+      <DependentUpon>M_Invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quote.Designer.cs">
+      <DependentUpon>Quote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Size.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Size.Designer.cs">
+      <DependentUpon>Size.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sizes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sizes.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Discounts.resx">
+      <DependentUpon>Discounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DC_form.resx">
+      <DependentUpon>DC_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Q_form.resx">
+      <DependentUpon>Q_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IC.resx">
+      <DependentUpon>IC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="invoice_form.resx">
+      <DependentUpon>invoice_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ledgers_form.resx">
+      <DependentUpon>ledgers_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="M_Invoice.resx">
+      <DependentUpon>M_Invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Quote.resx">
+      <DependentUpon>Quote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Size.resx">
+      <DependentUpon>Size.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="ProjectDataSet.xsc">
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet.xss">
+      <DependentUpon>ProjectDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet1.xsc">
+      <DependentUpon>ProjectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet1.xss">
+      <DependentUpon>ProjectDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet10.xsc">
+      <DependentUpon>ProjectDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet10.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet10.xss">
+      <DependentUpon>ProjectDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet11.xsc">
+      <DependentUpon>ProjectDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet11.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet11.xss">
+      <DependentUpon>ProjectDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet12.xsc">
+      <DependentUpon>ProjectDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet12.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet12.xss">
+      <DependentUpon>ProjectDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet13.xsc">
+      <DependentUpon>ProjectDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet13.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet13.xss">
+      <DependentUpon>ProjectDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet14.xsc">
+      <DependentUpon>ProjectDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet14.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet14.xss">
+      <DependentUpon>ProjectDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet151.xsc">
+      <DependentUpon>ProjectDataSet151.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet151.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet151.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet151.xss">
+      <DependentUpon>ProjectDataSet151.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet16.xsc">
+      <DependentUpon>ProjectDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet16.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet16.xss">
+      <DependentUpon>ProjectDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet17.xsc">
+      <DependentUpon>ProjectDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet17.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet17.xss">
+      <DependentUpon>ProjectDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet18.xsc">
+      <DependentUpon>ProjectDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet18.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet18.xss">
+      <DependentUpon>ProjectDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet19.xsc">
+      <DependentUpon>ProjectDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet19.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet19.xss">
+      <DependentUpon>ProjectDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet2.xsc">
+      <DependentUpon>ProjectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet2.xss">
+      <DependentUpon>ProjectDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet20.xsc">
+      <DependentUpon>ProjectDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet20.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet20.xss">
+      <DependentUpon>ProjectDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet21.xsc">
+      <DependentUpon>ProjectDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet21.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet21.xss">
+      <DependentUpon>ProjectDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet22.xsc">
+      <DependentUpon>ProjectDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet22.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet22.xss">
+      <DependentUpon>ProjectDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet23.xsc">
+      <DependentUpon>ProjectDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet23.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet23.xss">
+      <DependentUpon>ProjectDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet24.xsc">
+      <DependentUpon>ProjectDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet24.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet24.xss">
+      <DependentUpon>ProjectDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet25.xsc">
+      <DependentUpon>ProjectDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet25.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet25.xss">
+      <DependentUpon>ProjectDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet26.xsc">
+      <DependentUpon>ProjectDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet26.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet26.xss">
+      <DependentUpon>ProjectDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet27.xsc">
+      <DependentUpon>ProjectDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet27.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet27.xss">
+      <DependentUpon>ProjectDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet28.xsc">
+      <DependentUpon>ProjectDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet28.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet28.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet28.xss">
+      <DependentUpon>ProjectDataSet28.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet29.xsc">
+      <DependentUpon>ProjectDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet29.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet29.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet29.xss">
+      <DependentUpon>ProjectDataSet29.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet3.xsc">
+      <DependentUpon>ProjectDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet3.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet3.xss">
+      <DependentUpon>ProjectDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet4.xsc">
+      <DependentUpon>ProjectDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet4.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet4.xss">
+      <DependentUpon>ProjectDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet5.xsc">
+      <DependentUpon>ProjectDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet5.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet5.xss">
+      <DependentUpon>ProjectDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet6.xsc">
+      <DependentUpon>ProjectDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet6.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet6.xss">
+      <DependentUpon>ProjectDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet7.xsc">
+      <DependentUpon>ProjectDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet7.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet7.xss">
+      <DependentUpon>ProjectDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet8.xsc">
+      <DependentUpon>ProjectDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet8.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet8.xss">
+      <DependentUpon>ProjectDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet9.xsc">
+      <DependentUpon>ProjectDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>ProjectDataSet9.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ProjectDataSet9.xss">
+      <DependentUpon>ProjectDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sizes.xsc">
+      <DependentUpon>Sizes.xsd</DependentUpon>
+    </None>
+    <None Include="Sizes.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Sizes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sizes.xss">
+      <DependentUpon>Sizes.xsd</DependentUpon>
+    </None>
+    <None Include="WindowsFormsApp4_1_TemporaryKey.pfx" />
+    <None Include="WindowsFormsApp4_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21637583.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\216375831.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_344521200-stock-illustration-initial-letter-ah-or-ha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_344521200-stock-illustration-initial-letter-ah-or-ha1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_48px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_input_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-23 at 2.10.07 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-22 at 11.54.28 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_enter_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_print_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-26 at 7.51.39 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-27 at 1.20.07 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printPreviewDialog1.Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_search_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_company_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_user_male_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_fit_vertical_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_google_forms_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_google_forms_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_square_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_in_app_messaging_256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_rotate_right_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_loop_left_rotation_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delivery_person_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_invoice_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-29 at 12.07.10 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-29 at 12.07.10 PM %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-07-29 at 12.07.10 PM %281%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_maximize_button_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_maximize_window_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minimize_Window_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minimize_Window_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minimize_Window_642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_maximize_window_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minimize_Window_643.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_enter_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_reset_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_search_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Circled_Down_Left_Arrow_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_close_window_642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_back_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_forward_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_back_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_business_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_list_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_Menu_Female_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Xbox_Menu_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_back_642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_forward_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_add_641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_categorize_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Final.ico" />
+    <Content Include="icons8_square.ico" />
+    <None Include="Resources\finputchallan_32.png" />
+    <None Include="Resources\fledger_32.png" />
+    <None Include="Resources\fledger_321.png" />
+    <None Include="Resources\fquote_32.png" />
+    <None Include="Resources\fadd_32.png" />
+    <None Include="Resources\fdelivery_32.png" />
+    <None Include="Resources\finvoice_32.png" />
+    <None Include="Resources\f.ico" />
+    <None Include="Resources\f1.ico" />
+    <Content Include="wwwwwwww.ico" />
+    <None Include="Resources\Q_32.png" />
+    <None Include="Resources\icons8_quote_321.png" />
+    <None Include="Resources\icons8_quote_32.png" />
+    <None Include="Resources\Quo_32.png" />
+    <None Include="Resources\icons8_enter.ico" />
+    <None Include="Resources\icons8_password_32.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\icons8_back_644.png" />
+    <None Include="Resources\icons8_in_inventory_641.png" />
+    <None Include="Resources\icons8_in_inventory_32.png" />
+    <None Include="Resources\icons8_in_inventory_16.png" />
+    <None Include="Resources\search_321.png" />
+    <None Include="Resources\search_32.png" />
+    <None Include="Resources\SA_32.png" />
+    <None Include="Resources\icons8_search_321.png" />
+    <None Include="Resources\icons8_search_16.png" />
+    <None Include="Resources\icons8_key_64.png" />
+    <None Include="Resources\icons8_Back_To_64.png" />
+    <None Include="Resources\icons_back_641.png" />
+    <None Include="Resources\icons_back_64.png" />
+    <None Include="Resources\icos8_back_64.png" />
+    <None Include="Resources\icns8_back_32.png" />
+    <None Include="Resources\icons8_invoice.ico" />
+    <None Include="Resources\icons8_approved_delivery.ico" />
+    <None Include="Resources\icons8_purchase_order.ico" />
+    <None Include="Resources\icons8_ledger_32.png" />
+    <None Include="Resources\icons8_cashbook_641.png" />
+    <None Include="Resources\icons8_add_321.png" />
+    <None Include="Resources\add_30px1.png" />
+    <None Include="Resources\icns8_list_64.png" />
+    <None Include="Resources\icons8_google_forms_2561.png" />
+    <None Include="Resources\icons8_Order_History_64.png" />
+    <None Include="Resources\icons8_bill_64.png" />
+    <None Include="Resources\icons8_add_644.png" />
+    <None Include="Resources\icons8_add_643.png" />
+    <None Include="Resources\icons8_search_641.png" />
+    <None Include="Resources\icons8_in_inventory_64.png" />
+    <None Include="Resources\icons8_invoice_641.png" />
+    <None Include="Resources\icons8_quote_64.png" />
+    <None Include="Resources\icons8_company_641.png" />
+    <None Include="Resources\icons8_new_company_64.png" />
+    <None Include="Resources\icons8_purchase_order_641.png" />
+    <None Include="Resources\icons8_purchase_order_642.png" />
+    <None Include="Resources\icons8_original_size_64.png" />
+    <None Include="Resources\icons8_edit_64.png" />
+    <None Include="Resources\icons8_edit_643.png" />
+    <None Include="Resources\WhatsApp Image 2022-07-27 at 1.20.07 PM2.jpeg" />
+    <None Include="Resources\WhatsApp Image 2022-07-29 at 12.07.11 PM.jpeg" />
+    <None Include="Resources\WhatsApp Image 2022-07-29 at 12.07.11 PM1.jpeg" />
+    <None Include="Resources\WhatsApp Image 2022-07-29 at 12.07.11 PM2.jpeg" />
+    <None Include="Resources\WhatsApp Image 2022-08-11 at 5.08.31 PM.jpeg" />
+    <None Include="Resources\icons8_print_64.png" />
+    <None Include="Resources\icons8_print_161.png" />
+    <None Include="Resources\icons8_print_16.png" />
+    <None Include="Resources\WhatsApp Image 2022-07-27 at 1.20.07 PM1.jpeg" />
+    <None Include="Resources\icons8_forward_642.png" />
+    <None Include="Resources\icons8_back_643.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="WindowsFormsApp4.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup Condition="$(VisualStudioVersion) == '17.0'">
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>$(SSDTPath)\Microsoft.Data.Tools.Schema.Sql.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql.UnitTesting, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>$(SSDTUnitTestPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>$(SSDTUnitTestPath)\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <SsdtUnitTestVersion>3.1</SsdtUnitTestVersion>
+  </PropertyGroup>
+  <Import Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="$(VisualStudioVersion) != '15.0' And '$(SQLDBExtensionsRefPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.Sql.UnitTesting.targets" Condition="$(VisualStudioVersion) != '15.0' And '$(SQLDBExtensionsRefPath)' == ''" />
+</Project>
